@@ -16,7 +16,7 @@ bun link meta-tags-generator
 To run:
 
 ```bash
-bunx meta-generate
+bunx meta-generate from <url>
 ```
 
 This project was created using `bun init` in bun v1.0.16. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

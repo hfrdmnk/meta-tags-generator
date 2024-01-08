@@ -3,9 +3,18 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
+    "@types/yargs": "^17.0.32",
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "bin": {
+    "meta-generate": "./index.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "openai": "^4.24.1",
+    "yargs": "^17.7.2"
   }
 }

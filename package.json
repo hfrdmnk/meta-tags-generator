@@ -3,6 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
+    "@types/yargs": "^17.0.32",
     "bun-types": "latest"
   },
   "peerDependencies": {
@@ -12,6 +13,7 @@
     "meta-generate": "./index.ts"
   },
   "dependencies": {
-    "openai": "^4.24.1"
+    "openai": "^4.24.1",
+    "yargs": "^17.7.2"
   }
 }
